@@ -1,0 +1,111 @@
+
+body {
+  background-color: black;
+  background-image: url(images/city.jpg);
+  background: url(images/city.jpg), linear-gradient(black, blue,rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+
+.Header{
+  display: block;
+  word-wrap: break-word;
+}
+hr{
+  min-width: 100px;
+  max-width: 400px;
+  box-shadow: 0 0 10px white;
+}
+.top-txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.txt-design{
+  font-size: 56px;
+  text-shadow: 0 0 25px #7ed4f9 ;
+  color: aliceblue;
+  margin: 30px 0px 0px 0px;
+}
+.btn{
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+.btn-design{
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 0 10px #7ed4f9 ;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  background-color: rgb(126, 229, 255);
+  min-width: 100px;
+}
+.btn-design:hover{
+  background-color: black;
+  color: aliceblue;
+  box-shadow: 0 0 10px #ffffff ;
+}
+
+label{
+  display: block;
+}
+
+
+
+
+
+
+@media (max-width:720px)
+{
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+.Site-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+
+}
+
+.image{
+  min-height: 50px;
+  min-width: 50px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  border: 1px solid white;
+  box-shadow: 0 0 10px #7ed4f9 ;
+}
+#text-box{
+  background-color: rgba(0, 0, 0, 0.526);
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25%;
+  border: 1px solid white;
+  box-shadow: 0 0 10px #7ed4f9 ;
+}
+.txt-2{
+  font-size: x-large;
+  color: aliceblue;
+  text-shadow: 0 0 25px #7ed4f9 ;
+}
+
+.Footer{
+
+}
+.div{
+  border: 3px solid white;
+}
